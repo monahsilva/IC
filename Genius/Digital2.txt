@@ -1,0 +1,51 @@
+Uso dos pinos:
+
+P1.0 - potenciometro 
+P1.1 - potenciometro 
+P1.2 - nada conectado 
+P1.3 - nada conectado
+P1.4 - LED amarelo
+P1.5 - LED vermelho
+P1.6 - PWM
+P1.7 - LED
+
+P2.0 - LCD
+P2.1 - LCD
+P2.2 - LCD
+P2.3 - LCD
+P2.4 - LCD
+P2.5 - LCD
+P2.6 - Button - Pause
+P2.7 - nada conectado 
+
+TEST - nada conectado
+RST - 1 capacitor de 1nF e 1 resistor de 47kOhm
+
+Conecções do LCD:
+
+1 VSS - GND 
+2 VCC - 5V vindo de uma fonte
+3 Contraste - Potenciometro de 10k
+4 RS - P2.4
+5 R/w - GND
+6 EN - P2.5
+7 D0 - nada conectado 
+8 D1 - nada conectado
+9 D2 - nada conectado
+10 D3 - nada conectado
+11 D4 - P2.0
+12 D5 - P2.1
+13 D6 - P2.2
+14 D7 - P2.3
+15 LED+ - 3.3V do msp
+16 LED- - GND
+
+Itens extra:
+
+1 Buzzer de 5V/20mA
+Resistor pro driver do buzzer = 33kOhm
+2 Resistor pro led = 220ohm
+1 resistor pro button = 220ohm
+1 resistor pro circuito pro reset = 47kOhm
+1 capacitor RESET = 1nF
+1 transistor BC548B
